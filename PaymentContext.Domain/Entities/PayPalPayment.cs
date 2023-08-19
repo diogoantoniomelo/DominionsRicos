@@ -11,11 +11,11 @@ namespace PaymentContext.Domain.Entities
             decimal total,
             decimal totalPaid,
             string payer,
-            string document,
-            string adress,
-            string email
+            Document document,
+            Address address,
+            Email email
         )
-            : base(paidDate, expireDate, total, totalPaid, payer, document, adress, email)
+            : base(paidDate, expireDate, total, totalPaid, payer, document, address, email)
         {
             TransactionCode = transactionCode;
         }

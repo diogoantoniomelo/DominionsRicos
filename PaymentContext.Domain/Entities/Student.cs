@@ -1,25 +1,28 @@
 namespace PaymentContext.Domain.Entities
 {
-    public class Student
+    public class Student : Entity
     {
         private IList<Subscription> _subscriptions;
-        public Student(string firstName, string lastName, string document, string email)
+
+        public Student(Name name, Document document, Email email)
         {
-            FirstName = firstName;
-            LastName = lastName;
+            Name = name;
             Document = document;
             Email = email;
             _subscriptions = new List<Subscription>();
         }
 
-        public string FirstName { get; private set; }
-        public string LastName { get; private set; }
-        public string Document { get; private set; }
-        public string Email { get; private set; }
-        public IReadOnlyCollection<Subscription> Subscriptions { get{ return _subscriptions.ToArray();} }
-        public string Address { get; private set; }
+        public Name Name { get; private set; }
+        public Document Document { get; private set; }
+        public Email Email { get; private set; }
+        public IReadOnlyCollection<Subscription> Subscriptions
+        {
+            get { return _subscriptions.ToArray(); }
+        }
+        public Address Address { get; private set; }
 
-        public void AddSubscription(Subscription subscription){
+        public void AddSubscription(Subscription subscription)
+        {
             foreach (var sub in Subscriptions)
             {
                 sub.Inactivate();
