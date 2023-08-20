@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "tQFhgS5dTWZyjuZj+eYdC30WJ5KLG/fgWUM65OCu0LO8fB19D/SoEfx9JUC2hBlZw6p1mey90qWpoebkuacznA==",
+  "dgSpecHash": "5aabmWOkJScukRy+tAfX9WRW8kh1L54HA6/YDkdVvrkTdAv8C57waYeUVeBnDrClb/j713EIF9q7bWatJrcYIw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Diogo\\Documents\\Curso Balta\\DominiosRicos\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Diogo\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
+    "C:\\Users\\Diogo\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
     "C:\\Users\\Diogo\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
     "C:\\Users\\Diogo\\.nuget\\packages\\microsoft.net.test.sdk\\17.5.0\\microsoft.net.test.sdk.17.5.0.nupkg.sha512",
     "C:\\Users\\Diogo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

@@ -43,6 +43,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "flunt": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -98,6 +104,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "flunt": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -176,6 +188,10 @@
             "coverlet.collector": {
               "target": "Package",
               "version": "[3.2.0, )"
+            },
+            "flunt": {
+              "target": "Package",
+              "version": "[2.0.5, )"
             }
           },
           "imports": [
