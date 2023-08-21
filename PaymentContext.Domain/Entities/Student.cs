@@ -1,3 +1,5 @@
+using Flunt.Validations;
+
 namespace PaymentContext.Domain.Entities
 {
     public class Student : Entity
@@ -10,6 +12,8 @@ namespace PaymentContext.Domain.Entities
             Document = document;
             Email = email;
             _subscriptions = new List<Subscription>();
+
+            AddNotifications(name, document, email);
         }
 
         public Name Name { get; private set; }
@@ -23,11 +27,22 @@ namespace PaymentContext.Domain.Entities
 
         public void AddSubscription(Subscription subscription)
         {
+            var hasSubscriptionActive = false;
             foreach (var sub in Subscriptions)
             {
-                sub.Inactivate();
+                if (sub.Active)
+                    ;
+                hasSubscriptionActive = true;
             }
-            _subscriptions.Add(subscription);
+            AddNotifications(
+                new Contract<Subscription>()
+                    .Requires()
+                    .IsFalse(
+                        hasSubscriptionActive,
+                        "Student.Subscriptions",
+                        "Você já tem uma assunatura ativa"
+                    )
+            );
         }
     }
 }

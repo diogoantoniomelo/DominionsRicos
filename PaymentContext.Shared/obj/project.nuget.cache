@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "lcUOx2r72HD26DAyAevcHiYl3gmIZBYDPtowRkCebP795NPeX4wiv/4WKrEWZ6tCXNB5NmUHBggL9FFVVzsmkg==",
+  "dgSpecHash": "wHPtbo6kA4xl+655GW79fL1fzlbhgYVjYYPzEy/dw5LG6YEf8JXl+PWOzqA2Vg+/nLCPP2vgteiJbSRH1sm/yA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Diogo\\Documents\\Curso Balta\\DominiosRicos\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Diogo\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

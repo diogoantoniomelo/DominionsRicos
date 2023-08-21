@@ -1,4 +1,6 @@
-public abstract class Entity
+using Flunt.Notifications;
+
+public abstract class Entity : Notifiable<Notification>
 {
     protected Entity()
     {

@@ -1,1 +1,3 @@
-public class ValueObject { }
+using Flunt.Notifications;
+
+public class ValueObject : Notifiable<Notification> { }
