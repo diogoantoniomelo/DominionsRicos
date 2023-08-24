@@ -102,3 +102,4 @@ C:\Users\Diogo\Documents\Curso Balta\DominiosRicos\PaymentContext\PaymentContext
 C:\Users\Diogo\Documents\Curso Balta\DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net7.0\PaymentContext.Shared.dll
 C:\Users\Diogo\Documents\Curso Balta\DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net7.0\PaymentContext.Shared.pdb
 C:\Users\Diogo\Documents\Curso Balta\DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net7.0\PaymentContext.Domain.pdb
+C:\Users\Diogo\Documents\Curso Balta\DominiosRicos\PaymentContext\PaymentContext.Tests\bin\Debug\net7.0\Flunt.dll

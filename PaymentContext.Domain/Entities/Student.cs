@@ -42,6 +42,12 @@ namespace PaymentContext.Domain.Entities
                         "Student.Subscriptions",
                         "Você já tem uma assunatura ativa"
                     )
+                    .AreEquals(
+                        0,
+                        subscription.Payments.Count,
+                        "Atudant.Subscription",
+                        "Essa assinatura não possui pagamentos"
+                    )
             );
         }
     }
